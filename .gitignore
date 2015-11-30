@@ -1,0 +1,9 @@
+.DS_Store
+
+# vim https://raw.githubusercontent.com/github/gitignore/master/Global/Vim.gitignore
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
