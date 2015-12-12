@@ -10,14 +10,14 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'altercation/vim-colors-solarized'
+"Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 
 call plug#end()
 
 " syntax
 syntax enable
-syntax on
+" syntax on
 
 " 1 tab == 4 spaces
 set shiftwidth=4
@@ -33,8 +33,8 @@ set hlsearch
 set autoindent
 
 " solarized
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
 " Show line number
 set nu
