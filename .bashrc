@@ -3,8 +3,6 @@
 
 export PLATFORM=$(uname -s)
 export EDITOR=vim
-export GOPATH=$HOME
-export PATH=~/bin:"$PATH"
 
 # don't put duplicate lines in the history. See bash(1) for more options
 # ... or force ignoredups and ignorespace
