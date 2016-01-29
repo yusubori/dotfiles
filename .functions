@@ -1,0 +1,6 @@
+#!/bin/bash
+
+findc ()
+{
+    find $1 -name '*.[chs]'
+}
